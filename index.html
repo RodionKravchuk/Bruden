@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Css/about_us.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">BRUDEN</div>
+        <nav class="nav">
+            <a href="/home" class="home nav-elem">Home</a>
+            <a href="/shop" class="shop nav-elem">Shop</a>
+            <a href="/blog" class="blog nav-elem">Blog</a>
+            <a href="/about" class="about_us">About Us</a>
+            <a href="/contact" class="contact_us nav-elem">Contact Us</a>
+        </nav>
+        <div class="social-search-cart">
+            <img src="/images/frame-101.png" alt="">
+        </div>
+    </header>
+    <div class="burger-menu">
+        <div class="burger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="menu-items" id="menuItems">
+            <div class="close-menu" onclick="toggleMenu()">&#10005;</div>
+            <a href="#" onclick="toggleMenu()">Home</a>
+            <a href="#" onclick="toggleMenu()">Shop</a>
+            <a href="#" onclick="toggleMenu()">Blog</a>
+            <a href="#" onclick="toggleMenu()">About Us</a>
+            <a href="#" onclick="toggleMenu()">Contact Us</a>
+
+        </div>
+
+
+    </div>
+    <hr class="hh">
+    <main>
+        <section class="about_us">
+            <h1 class="about_us-title">About Us</h1>
+        </section>
+        <section class="brand">
+            <div class="brand-content">
+                <p class="brand-subtitle">the perfect addition to their outfits with our range of merchandise</p>
+                <h1 class="brand-title">A brand of small products that make a huge difference to your everyday look</h1>
+                <p class="brand-paragraph">We strive to produce quality fashionable products that adhere to your
+                    comfort. We currently have 15 products in-store
+                    and more to come!
+
+                    We will be the brand that produces small products that make a huge difference in your day-to-day
+                    outfits. Having that
+                    fashionable yet still comfortable piece to your fit can make a big impact on your day-to-day life.
+                </p>
+            </div>
+            <img src="/images/rectangle-69.png" class="brand-img" alt="">
+        </section>
+        <section class="description">
+            <div class="comfort">
+                <h2 class="comfort-title description-title">Unique size for maximum comfort</h2>
+                <p class="comfort-paragraph description-paragraph">Our backpacks are not normal-sized. They are made in
+                    a mini size since this really is an alternative to a handbag, not
+                    solely in size but also in how you wear it.</p>
+            </div>
+            <div class="healthy">
+                <h2 class="healthy-title description-title">A Healthy back and straight posture</h2>
+                <p class="healthy-paragraph description-paragraph">Two shoulder straps distribute the weight more evenly
+                    across the back. This will make women feel more comfortable while
+                    walking and reduces the likelihood of muscle spasms and poor posture</p>
+            </div>
+            <div class="alternative">
+                <h2 class="alternative-title description-title">An alternative to carrying a handbag</h2>
+                <p class="alternative-paragraph description-paragraph">Our number one product, Bruden's Backpack was
+                    created for those who need an alternative to wearing a handbag. Those who
+                    prefer to wear their bags on their back than on just one shoulder</p>
+            </div>
+        </section>
+        <section class="category">
+            <div class="bags category-card">
+                <img src="/images/shop-by-category-1.png" class="category-img" alt="">
+                <p class="category-p">Bags</p>
+            </div>
+            <div class="sunglasses category-card">
+                <img src="/images/shop-by-category-2.png" class="category-img" alt="">
+                <p class="category-p">Sunglasses </p>
+            </div>
+            <div class="bels category-card">
+                <img src="/images/shop-by-category-3.png" class="category-img" alt="">
+                <p class="category-p">Belts</p>
+            </div>
+            <span class="category-arrows">
+                <img src="/images/arrows.png" class="arrw" alt="">
+            </span>
+        </section>
+        <section class="news">
+            <h1 class="lastest-news">Latest news</h1>
+            <div class="news-columns">
+                <div class="mode news-card">
+                    <img src="/images/latest-news-1.png" class="news-png" alt="">
+                    <div class="news-block">
+                        <h3 class="mode-title news-title">Bruden Mode Is Taking Care of Women</h3>
+                        <p class="mode-paragraph news-paragraph">Bruden Mode in Montreal has taken a lot of time and put
+                            a
+                            lot of effort into helping women not only
+                            look great but to be
+                            more healthy.</p>
+                    </div>
+                    <a href="#" class="news-read">Read more</a>
+                </div>
+                <div class="accessories news-card">
+                    <img src="/images/latest-news-2.png" class="news-png" alt="">
+                    <div class="news-block">
+                        <h3 class="accesories-title news-title">Bruden Mode Accessories</h3>
+                        <p class="accesories-paragraph news-paragraph">Finding the perfect little thing that compliments
+                            your wardrobe can give you the confidence and the feeling you love to
+                            be your best.</p>
+                    </div>
+                    <a href="#" class="news-read">Read more </a>
+                </div>
+                <div class="backpacks news-card">
+                    <img src="/images/latest-news-3.png" class="news-png" alt="">
+                    <div class="news-block">
+                        <h3 class="backpacks-title news-title">Different Types of Backpacks</h3>
+                        <p class="backpacks-paragraph news-paragraph">Different backpacks do different things and serve
+                            various purposes.
+                        </p>
+                    </div>
+                    <a href="#" class="news-read rread">Read more</a>
+                </div>
+            </div>
+            <span class="news-arrows">
+                <img src="/images/arrows.png" alt="">
+            </span>
+        </section>
+        <section class="products">
+            <div class="product">
+                <h2 class="products-title">Special products</h2>
+                <p class="products-paragraph">Register now to get updates on promotions</p>
+                <div class="subscribe-block">
+                    <input type="text" class="subscribe-input">
+                    <button class="subscribe-button">SUBSCRIBE</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- <footer class="footer">
+        <div class="info">
+            <div class="info-logo">
+                <img src="/images/img-44731.png" class="footer-up-img" alt="">
+                <a href="#">@brudenmtl</a>
+                <a href="#">©2022 by Bruden Mode.</a>
+                <a href="#">Proudly created with</a>
+            </div>
+            <div class="shop">
+                <h2 class="footer-shop">Shop</h2>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+            </div>
+
+            <h2 class="footer-account">Account</h2>
+            <h2 class="footer-information">Information</h2>
+            <h2 class="footer-contacts">Contacts</h2>
+        </div>
+    </footer> -->
+
+    <footer>
+        <div class="footer-section" id="bruden-section">
+            <a href="https://telegram.me/brudenmtl" target="_blank">
+            </a>
+            <h3>Bruden</h3>
+            <p>@brudenmtl</p>
+            <p>©2022 By Bruden Mode. Proudly Created With</p>
+        </div>
+        <div class="footer-section">
+            <h3>Shop</h3>
+            <p class="baags">Bags</p>
+            <p>Belts</p>
+            <p>Sunglasses</p>
+        </div>
+        <div class="footer-section">
+            <h3>Account</h3>
+            <p class="oorders">Orders</p>
+            <p>Checkout</p>
+            <p>My Account</p>
+            <p>Account Details</p>
+        </div>
+        <div class="footer-section">
+            <h3>Information</h3>
+            <p class="FFF">FAQs</p>
+            <p>Contact Us</p>
+            <p>Privacy Policy</p>
+            <p>Return Policy</p>
+            <p>Shipping Policy</p>
+            <p>Terms And Conditions</p>
+        </div>
+        <div class="footer-section">
+            <h3>Contacts</h3>
+            <p class="em">email@mail.com</p>
+            <p>+1-000-000-0000</p>
+            <p>Bld, Street, Town, ZIP Code</p>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
